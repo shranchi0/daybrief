@@ -1,0 +1,8 @@
+{
+  "$comment": "STARTER SET spanning the thesis (devtools infra ×2, robotics ×1) to exercise the harness. Replace/extend with 10-15 real companies from recent calendars — include a stealth company and a name-collision case (two companies with the same name) to test identity verification.",
+  "companies": [
+    { "domain": "e2b.dev", "company": "E2B", "attendees": ["Vasek Mlejnsky"] },
+    { "domain": "daytona.io", "company": "Daytona", "attendees": ["Ivan Burazin"] },
+    { "domain": "physicalintelligence.company", "company": "Physical Intelligence", "attendees": ["Karol Hausman"] }
+  ]
+}

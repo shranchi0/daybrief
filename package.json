@@ -1,0 +1,45 @@
+{
+  "name": "daybrief",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Morning meeting briefs for a seed-stage fund: research-grade prep for every external meeting, with firm-wide recall.",
+  "type": "module",
+  "scripts": {
+    "daybrief": "tsx src/cli.ts",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "inngest-dev": "npx inngest-cli@latest dev -u http://localhost:3000/api/inngest",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^3.0.0",
+    "@slack/web-api": "^8.0.0",
+    "@supabase/supabase-js": "^2.49.0",
+    "ai": "^7.0.52",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0",
+    "exa-js": "^2.16.3",
+    "googleapis": "^174.0.1",
+    "inngest": "^4.16.0",
+    "next": "^16.3.0",
+    "parallel-web": "^1.1.0",
+    "picocolors": "^1.1.0",
+    "postgres": "^3.4.9",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "ws": "^8.21.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

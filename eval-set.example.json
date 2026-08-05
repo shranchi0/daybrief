@@ -1,0 +1,7 @@
+{
+  "$comment": "Copy to eval-set.json and fill with 10-15 REAL companies from recent calendars (PRD §15 M0). Mix: well-covered companies, stealth/near-zero-presence ones, and at least one name-collision case (two companies named the same thing) to test identity verification.",
+  "companies": [
+    { "domain": "example-devtool.dev", "company": "Example Devtool", "attendees": ["Jane Founder"] },
+    { "domain": "example-stealth.ai", "company": null, "attendees": ["John Stealth"] }
+  ]
+}
